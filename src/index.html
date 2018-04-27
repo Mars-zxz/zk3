@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/lib/swiper.min.css">
+    <link rel="stylesheet" href="./static/font/iconfont.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="top">
+                <label for="">
+                    <i class="icon iconfont icon-fangdajing"></i>
+                    <input type="text" placeholder="小米MIX 2S">
+                 </label>
+                <span><i class="icon iconfont icon-xiaoxi"></i></span>
+            </div>
+        </header>
+        <div class="swiper-container banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./static/images/pic1.png" alt=""></div>
+                <div class="swiper-slide"><img src="./static/images/pic2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./static/images/pic3.png" alt=""></div>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <span><i class="icon iconfont icon-shouji hd"></i></span>
+                    <b>活动频道</b>
+                </li>
+                <li>
+                    <span><i class="icon iconfont icon-pingfen sg"></i></span>
+                    <b>小米闪购</b>
+                </li>
+                <li>
+                    <span><i class="icon iconfont icon-geren pt"></i></span>
+                    <b>好友拼团</b>
+                </li>
+                <li>
+                    <span><i class="icon iconfont icon-shoucang1 fq"></i></span>
+                    <b>小米分期</b>
+                </li>
+            </ul>
+        </nav>
+        <div class="mid">
+            <dl>
+                <dt><img src="./static/images/center-banner.png" alt=""></dt>
+                <dd>
+                    <h3>小米之家北京五彩城店</h3>
+                    <p>距离3.79公里</p>
+                </dd>
+            </dl>
+            <p class="other">其他零售店<a href="##">></a></p>
+        </div>
+    </div>
+</body>
+<script src="./static/js/libs/swiper.min.js"></script>
+<script>
+    var banner = new Swiper('.banner', {
+        loop: true,
+        autoplay: 1000
+    })
+</script>
+
+</html>
